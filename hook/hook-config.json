@@ -1,0 +1,22 @@
+{
+  "result_dir": "~/.claude/hooks/results",
+  "log_file": "~/.claude/hooks/results/hook.log",
+  "openclaw_bin": "/usr/local/bin/openclaw",
+  "fallback_output_file": "/tmp/claude-code-output.txt",
+  "lock_age_limit": 30,
+  "output_max_chars": 4000,
+  "summary_max_chars": 800,
+  "pipe_flush_wait": 1,
+  "notify_channels": [
+    {
+      "channel": "telegram",
+      "target": "",
+      "enabled": true
+    },
+    {
+      "channel": "feishu",
+      "target": "",
+      "enabled": false
+    }
+  ]
+}
