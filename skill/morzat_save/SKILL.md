@@ -5,7 +5,7 @@ user-invocable: true
 argument-hint: <要保存的功能描述>
 ---
 
-将用户指定的 Claude Code 功能归档到 morzat_claude 仓库，配上 README.md 和 SETUP.md，然后 commit & push。
+将用户指定的 Claude Code 功能归档到 morzat_claude 仓库，配上 README.md 和 PROMPT.md，然后 commit & push。
 
 用户输入: $ARGUMENTS
 
@@ -55,9 +55,9 @@ argument-hint: <要保存的功能描述>
 
 已存在则更新，不要全部重写。
 
-### 5. 编写/更新 SETUP.md
+### 5. 编写/更新 PROMPT.md
 
-每个功能目录必须有 SETUP.md，这是一份部署 prompt:
+每个功能目录必须有 PROMPT.md，这是一份部署 prompt:
 
 ```
 # <目录名> 部署 Prompt
