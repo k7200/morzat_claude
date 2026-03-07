@@ -6,7 +6,7 @@
 
 - 根据用户描述，自动定位源文件（~/.claude/ 下的配置、脚本等）
 - 复制到 morzat_claude 仓库的对应分类目录
-- 自动生成/更新 README.md（功能说明）和 SETUP.md（部署 prompt）
+- 自动生成/更新 README.md（功能说明）和 PROMPT.md（部署 prompt）
 - 自动 git commit + push
 
 ## 用法

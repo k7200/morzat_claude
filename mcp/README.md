@@ -4,7 +4,7 @@
 
 ## 当前状态
 
-暂无已配置的 MCP Server。添加后按子目录管理，每个子目录包含配置文件、README.md 和 SETUP.md。
+暂无已配置的 MCP Server。添加后按子目录管理，每个子目录包含配置文件、README.md 和 PROMPT.md。
 
 ## MCP 配置说明
 
@@ -30,10 +30,10 @@ Claude Code 的 MCP 配置存放在以下位置:
 ```
 mcp/
 ├── README.md
-├── SETUP.md
+├── PROMPT.md
 ├── filesystem/        # 某个 MCP Server
 │   ├── README.md
-│   ├── SETUP.md
+│   ├── PROMPT.md
 │   └── config.json
 └── ...
 ```

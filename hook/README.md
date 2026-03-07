@@ -32,4 +32,4 @@
 |------|------|
 | `notify-agi.sh` | 核心 hook 脚本 |
 | `hook-config.json` | 通知渠道和采集参数配置 |
-| `SETUP.md` | 一键部署 prompt |
+| `PROMPT.md` | 一键部署 prompt |

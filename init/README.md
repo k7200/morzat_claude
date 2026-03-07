@@ -19,4 +19,4 @@
 |------|------|
 | `statusline-command.sh` | 状态栏脚本，从 stdin 读取 JSON 并格式化输出 |
 | `claude-code-statusline-prompt.md` | 状态栏部署 prompt |
-| `SETUP.md` | 一键部署 prompt（包含 statusline + settings.json） |
+| `PROMPT.md` | 一键部署 prompt（包含 statusline + settings.json） |
