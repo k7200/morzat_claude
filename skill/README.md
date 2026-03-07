@@ -1,13 +1,13 @@
-# skills — Claude Code 自定义技能
+# skill — Claude Code 自定义技能
 
-本目录用于存放 Claude Code 的自定义 slash commands（技能）。
+本目录存放 Claude Code 的自定义 slash commands（技能），每个子目录对应一个 skill。
 
-## 当前状态
+## 已有 Skills
 
-暂无自定义 skills。待后续添加自定义 `/command` 时在此目录管理。
+| 名称 | 说明 | 用法 |
+|------|------|------|
+| [morzat_save](morzat_save/) | 将 Claude Code 功能归档到 morzat_claude 仓库 | `/morzat_save <描述>` |
 
-## 使用说明
+## 安装方式
 
-Claude Code 的自定义命令存放在 `~/.claude/commands/` 目录下，每个 `.md` 文件对应一个 slash command。
-
-例如创建 `~/.claude/commands/review.md`，即可在 Claude Code 中使用 `/review` 命令。
+将子目录中的 `SKILL.md` 复制到 `~/.claude/skills/<skill名>/SKILL.md` 即可。
