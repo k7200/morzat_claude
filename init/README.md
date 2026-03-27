@@ -13,10 +13,15 @@
 - statusLine 指向 `statusline-command.sh`
 - hooks 注册 Stop / SessionEnd 事件（配合 hooks 目录使用）
 
+### 3. CLAUDE.md 用户级全局规则
+- **文件**: `claude_md/CLAUDE.md`
+- **作用**: 定义沟通规范、输出规范、四阶段任务工作流（Plan → Execute → Review → Retrospective）
+
 ## 文件清单
 
 | 文件 | 说明 |
 |------|------|
-| `statusline-command.sh` | 状态栏脚本，从 stdin 读取 JSON 并格式化输出 |
-| `claude-code-statusline-prompt.md` | 状态栏部署 prompt |
+| `statusline/statusline-command.sh` | 状态栏脚本，从 stdin 读取 JSON 并格式化输出 |
+| `statusline/claude-code-statusline-prompt.md` | 状态栏部署 prompt |
+| `claude_md/CLAUDE.md` | 用户级全局规则文件 |
 | `PROMPT.md` | 一键部署 prompt（包含 statusline + settings.json） |
